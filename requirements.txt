@@ -38,7 +38,7 @@ pycryptodome
 base58
 pytimeparse
 Tgcrypto
-pyrogram==1.4.16
+pyrogram==2.0.29
 gtts
 telethon 
 motor
