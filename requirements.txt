@@ -72,7 +72,7 @@ secureme
 cloudscraper
 img2pdf
 multicolorcaptcha
-youtube_search_python==1.4.9
+youtube_search_python==1.6.6
 youtube_search
 lyrics_extractor
 future
