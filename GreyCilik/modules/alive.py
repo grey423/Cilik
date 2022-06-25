@@ -7,7 +7,6 @@ from telethon import __version__ as tlhver
 from pyrogram import __version__ as pyrover
 from GreyCilik.events import register
 from GreyCilik import telethn as tbot
-from GreyCilik import BOT_NAME, BOT_USERNAME as bu
 
 PHOTO = "https://telegra.ph/file/760e7c0afaf6ba3df8ce7.jpg"
 
