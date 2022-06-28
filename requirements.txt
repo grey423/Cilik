@@ -27,7 +27,7 @@ psutil
 psycopg2-binary
 PyYAML
 pyrate-limiter
-python-telegram-bot==13.11.0
+python-telegram-bot==13.13
 faker
 requests
 spamwatch
