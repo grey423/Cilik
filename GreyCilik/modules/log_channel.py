@@ -9,16 +9,16 @@ if is_module_loaded(FILENAME):
     from telegram import ParseMode, Update
     from telegram.error import BadRequest, Unauthorized
     from telegram.ext import (
-      CommandHandler,
-      JobQueue,
-      run_async,
+        CommandHandler,
+        JobQueue,
+        run_async,
     )
     from telegram.utils.helpers import escape_markdown
 
     from GreyCilik import (
-      EVENT_LOGS,
-      LOGGER,
-      dispatcher,
+        EVENT_LOGS,
+        LOGGER,
+        dispatcher,
     )
     from GreyCilik.modules.helper_funcs.chat_status import user_admin
     from GreyCilik.modules.sql import log_channel_sql as sql
@@ -194,7 +194,6 @@ if is_module_loaded(FILENAME):
             log_channel_info = dispatcher.bot.get_chat(log_channel)
             return f"This group has all it's logs sent to: {escape_markdown(log_channel_info.title)} (`{log_channel}`)"
         return "No log channel is set for this group!"
-
 
     __help__ = """
 ──「 Log channel 」──

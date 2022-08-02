@@ -7,9 +7,9 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import CallbackContext, CommandHandler
 
 from GreyCilik import (
-  dispatcher,
-  DEV_USERS,
-  OWNER_ID,
+    dispatcher,
+    DEV_USERS,
+    OWNER_ID,
 )
 
 
