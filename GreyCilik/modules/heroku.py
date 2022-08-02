@@ -6,10 +6,10 @@ import heroku3
 import requests
 
 from GreyCilik import (
-  telethn as borg,
-  HEROKU_APP_NAME,
-  HEROKU_API_KEY,
-  OWNER_ID,
+    telethn as borg,
+    HEROKU_APP_NAME,
+    HEROKU_API_KEY,
+    OWNER_ID,
 )
 from GreyCilik.events import register
 

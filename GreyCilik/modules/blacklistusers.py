@@ -9,7 +9,7 @@ from GreyCilik import (
     TIGERS,
     WOLVES,
     dispatcher,
-) 
+)
 from GreyCilik.modules.helper_funcs.chat_status import dev_plus
 from GreyCilik.modules.helper_funcs.extraction import (
     extract_user,

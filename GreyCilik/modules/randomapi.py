@@ -30,7 +30,9 @@ async def _(hilih):
         await hilih.reply("Usage: /hilih <text>")
         return
     try:
-        resp = requests.get(f"https://tede-api.herokuapp.com/api/hilih?kata={kuntul}").json()
+        resp = requests.get(
+            f"https://tede-api.herokuapp.com/api/hilih?kata={kuntul}"
+        ).json()
         hilihnya = f"{resp['result']}"
         return await hilih.reply(hilihnya)
     except Exception:

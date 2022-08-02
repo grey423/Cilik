@@ -19,7 +19,8 @@ def dare(update: Update, context: CallbackContext):
 
 def helps(chat):
     return gs(chat, "truthordare_help")
-    
+
+
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare, run_async=True)
 
